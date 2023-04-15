@@ -1,6 +1,27 @@
 # Install-RCommander-in-Rstudio-Archlinux
 Instalar em Archlinux Rcommander desde Rstudio
 ------------------------------------------------
+Ordem correta para dar inicio a instalaçao de Rcommander en Rstudio a partir de Archilinux
+
+Aqui estão os passos para instalar o Rcmdr:
+
+Abra o RStudio.
+No console do RStudio, execute o seguinte comando para instalar o pacote Rcmdr e suas dependências: 
+
+install.packages("Rcmdr", dependencies = TRUE)
+
+Aguarde até que o pacote e todas as suas dependências sejam baixados e instalados.
+Após a instalação, carregue o pacote Rcmdr usando o comando: library(Rcmdr)
+Agora, você pode usar a interface do usuário do Rcmdr para executar suas análises estatísticas. Para abrir a interface do usuário, basta digitar Rcmdr no console e pressionar Enter.
+Espero que isso ajude!
+
+
+
+
+
+
+
+
 Entendendo o processo: 
 Quando tratamos de instalar o programa apenas usando este comando: install.packages("Rcmdr")
 O sistema ira devolver este err: installation of package ‘RcmdrMisc’ had non-zero exit status
