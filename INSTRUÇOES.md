@@ -18,6 +18,9 @@ install.packages("rr2")
 sudo chmod -R u+w x86_64-pc-linux-gnu-library
 install.packages(c("tcltk2", "Rcmdr"), dependencies = TRUE)
 library(Rcmdr)
+Instale o pacote RcmdrPlugin.EcoVirtual
+install.packages("RcmdrPlugin.EcoVirtual") 
+library("RcmdrPlugin.EcoVirtual") 
 
 
 
