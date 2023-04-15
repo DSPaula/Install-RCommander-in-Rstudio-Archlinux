@@ -16,8 +16,8 @@ install.packages(c("car", "pbkrtest", "quantreg", "lme4", "phyr"), dependencies 
 install.packages("RcmdrMisc")
 install.packages("rr2")
 sudo chmod -R u+w x86_64-pc-linux-gnu-library
-install.packages("tcltk2", lib="~/R/Rcmdr")
-install.packages("Rcmdr", dependencies = TRUE)
+install.packages(c("tcltk2", "Rcmdr"), dependencies = TRUE)
+library(Rcmdr)
 
 
 
