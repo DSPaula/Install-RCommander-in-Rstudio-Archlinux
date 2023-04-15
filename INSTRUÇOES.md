@@ -18,25 +18,13 @@ install.packages("rr2")
 sudo chmod -R u+w x86_64-pc-linux-gnu-library
 install.packages(c("tcltk2", "Rcmdr"), dependencies = TRUE)
 library(Rcmdr)
+
 Instale o pacote RcmdrPlugin.EcoVirtual
+
 install.packages("RcmdrPlugin.EcoVirtual") 
 library("RcmdrPlugin.EcoVirtual") 
 
-
-
-
-
-Aguarde até que o pacote e todas as suas dependências sejam baixados e instalados.
-Após a instalação, carregue o pacote Rcmdr usando o comando: library(Rcmdr)
-Agora, você pode usar a interface do usuário do Rcmdr para executar suas análises estatísticas. Para abrir a interface do usuário, basta digitar Rcmdr no console e pressionar Enter.
-Espero que isso ajude!
-
-
-
-
-
-
-
+Se queres entender os erros leia abaixo ou apenas instale os comandos acima sem neunhum stress :)
 
 Entendendo o processo: 
 Quando tratamos de instalar o programa apenas usando este comando: install.packages("Rcmdr")
