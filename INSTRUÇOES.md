@@ -6,9 +6,22 @@ Ordem correta para dar inicio a instalaçao de Rcommander en Rstudio a partir de
 Aqui estão os passos para instalar o Rcmdr:
 
 Abra o RStudio.
-No console do RStudio, execute o seguinte comando para instalar o pacote Rcmdr e suas dependências: 
-
+No console do RStudio, execute o seguinte comando para instalar o pacote Rcmdr e suas dependências:
+sudo pacman -S gcc-fortran
+sudo pacman -S tcl tk
+install.packages("setRepositories", repos = "https://cran.rstudio.com/")
+setRepositories()
+install.packages("minqa")
+install.packages(c("car", "pbkrtest", "quantreg", "lme4", "phyr"), dependencies = TRUE)
+install.packages("RcmdrMisc")
+install.packages("rr2")
+sudo chmod -R u+w x86_64-pc-linux-gnu-library
+install.packages("tcltk2", lib="~/R/Rcmdr")
 install.packages("Rcmdr", dependencies = TRUE)
+
+
+
+
 
 Aguarde até que o pacote e todas as suas dependências sejam baixados e instalados.
 Após a instalação, carregue o pacote Rcmdr usando o comando: library(Rcmdr)
